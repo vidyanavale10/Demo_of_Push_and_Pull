@@ -1,0 +1,11 @@
+Que 13.
+ create table Batch_Students(Id int primary key,batchId int,constraint batchid_fk foreign key(batchid) references course_batches(id),studentID int,constraint studentId_fk foreign key(studentid) references student(id));
+
+Que 14.
+
+ create table Student_Cards(Id int primary key,studentId int,constraint studentid_fk foreign key(studentid) references student(id),name varchar(45),IsActive bool);
+
+
+Que 15
+
+create table Student_Order(Id int primary key,studentId int,constraint studentid_fk foreign key(studentid) references student(id),Date date, Amount int);create table Student_Order(Id int primary key,studentId int,constraint studentid_fk foreign key(studentid) references student(id),Date date, Amount int);
