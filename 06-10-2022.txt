@@ -1,0 +1,86 @@
+heading tags-
+h1,h2,h3,h4,h5,h6
+<h1>   </h1>
+by default - bold , block level tags (width = 100%)
+
+Formatting tags- 
+<b></b> <i></i>
+u,strike , strong , font , small ,big , sup, sub etc....
+
+pre - preformatted tag
+================================================
+HTML Entities -
+& - statrts with
+; - ends with
+
+&copy;
+&reg;
+&nbsp; -> non breaking space (1 space)
+&emsp; -> (1 tab space - 4 spaces)
+&lt; , &gt; , &amp;
+
+List Tags -
+1. ordered list 
+2. unordered list
+3. definition list
+
+ordered list -> <ol></ol>
+unordered list -> <ul></ul>
+to prepare list item -> <li></li>
+
+ordered list -  by default -> 1,2,3,....
+
+<h2>Student Names</h2>
+<ol>
+	<li>Akki</li>
+	<li>Kat</li>
+	<li>Salman</li>
+	<li>Vicky</li>
+	<li>Kartik<li>
+	<li>Ash</li>
+</ol>
+
+Attributes -
+type - "a" , "A"  , "i" , "I",1
+
+unordered -   by default - disc (on 1st level)
+type - disc , circle , square
+
+
+1. shoe
+	a. casual
+	b. formal
+2. shirts
+3. tshirts
+===============================
+
+<dl> // definition list
+    <dt></dt> //definition term
+    <dd></dd> // data definition
+</dl>
+
+===================================================
+marquee -
+1. direction - left  - right to left
+			right - left to right
+			up - down to up
+			down - up to down
+============================================
+div and span ->
+div - division
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
